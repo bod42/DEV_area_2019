@@ -1,0 +1,81 @@
+All paths are rooted: http://localhost:3000 
+
+
+Weather API (OpenWeatherMap): 
+
+->”/Weather” 
+Give the weather of a given city 
+(parameter: “city” and “country”) 
+
+
+Trello API: 
+
+->”/trello/CreateCheckItems” 
+Create a checklist on the first card of Trello board 
+
+->”/trello/AddCart” 
+Create a new card on the first list of Trello board  
+
+->”/trello/AddCartComment” 
+Add a new comment on the first card of first list of Trello board 
+(parameter: “comment” with the content of the comment to add) 
+
+->”/trello/Id” 
+Update first list 
+
+->”/trello/Boards” 
+Get all boards of Maxime C. account 
+
+->”/trello/AddList” 
+Create a new list on Trello board 
+
+->”/trello/CreateCheckList” 
+Create a check list on a card of Trello board 
+
+
+Jira API: 
+
+->”/jira_AddNewUser” 
+Create a new user on Jira 
+
+
+Pokemon API (PokeApi): 
+
+->”/Pokemon_Name” 
+Get all information about a Pokemon 
+(parameter: “pokemon” is id of a Pokemon between 1 and 600 approximatively) 
+
+->”/pokemon_Berry” 
+Get all information about a Pokemon berry 
+(parameter: “berry_id” is id of a berry between 1 and 60 approximatively) 
+
+
+Star Wars API (Swapi): 
+
+->”/starwars_Planet” 
+Get all information about a Star Wars planet 
+(parameter: “id” of a planet between 1 and 60 approximatively) 
+
+->”/starwars_People” 
+Get all information about a Star Wars character 
+(parameter: “id” is id of character between 1 and 60 approximatively) 
+
+->”/starwars_Species” 
+Get all information about a Star Wars specie 
+(parameter: “id” is id of specie between 1 and 30 approximatively) 
+
+->”/starwars_Starships” 
+Get all information about a Star Wars star ship 
+(parameter: “id” is id of star ship between 1 and 15 approximatively) 
+
+
+Gitlab API:
+
+->"/gitlab"
+See commit on test api repository
+
+
+Personnal API: 
+
+->”/area” 
+Get last change of Trello board with id (corresponding to an action), action and date 

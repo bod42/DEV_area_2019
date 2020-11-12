@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  # SERVER
+  server:
+    build: ./server
+    ports:
+      - "8080:3000"
+    restart: on-failure
+
+  # WEBFRONT
+  webfront:
+    build: ./webfront
+    ports:
+      - "8081:8080"
+ 
+  # MOBILE
+  mobile:
+    build: ./mobile
+    volumes:
+    - "./apk:/result"

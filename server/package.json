@@ -1,0 +1,31 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "delay": "^4.3.0",
+    "discord-webhook-node": "^1.0.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "node-webhooks": "^1.4.2",
+    "nodejs-nodemailer-outlook": "^1.2.1",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "serve-index": "^1.9.1",
+    "webhook-discord": "^3.5.1"
+  }
+}

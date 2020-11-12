@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DEV_area_2019</string>
+    <string name="Act_Login_UserName_Hint">UserName</string>
+    <string name="Act_Login_Password_Hint">Password</string>
+    <string name="Act_Login_LoginButton_Text">Login</string>
+    <string name="MainActivity_Capture_Button">Capture</string>
+    <string name="MainActivity_Image_View">Image</string>
+    <string name="Act_login_Login_Text">Register</string>
+    <string name="Act_Login_UserEmail_Hint">UserEmail</string>
+</resources>

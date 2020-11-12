@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='DEV_area_2019'

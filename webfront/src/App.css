@@ -1,0 +1,123 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+  height: 130px;
+  background-color:#5be3ac
+}
+
+#headerTitle {
+  position: absolute;
+  display: inline-block;
+  font-size: 70px;
+  margin: 0;
+  padding:23px 0 0 50px;
+  color:white;
+}
+
+#apkDls {
+  float: right;
+  margin: 46px;
+}
+
+#dlsApkBtn {
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  background-color: #5be3ac;
+  border: 2px solid #47ad84;
+  border-radius: 5px;
+  color: white;
+}
+
+#container {
+  margin: 50px 50px 0 50px;
+  font-weight:lighter;
+}
+
+#category .title {
+  font-size: 50px;
+}
+
+#category .content {
+  margin: 20px 0 40px 0;
+}
+
+#category .card {
+  display: inline-block;
+  width: 330px;
+  height: 140px;
+  margin: 15px 0 0 15px;
+  border: 2px solid #ccc;
+  border-radius:5px;
+  box-shadow: 5px 5px #eee;
+}
+
+.card .cardTitle {
+  margin: 5px 0 0 5px;
+}
+
+.card .txtel {
+  display: inline-block;
+  position: absolute;
+  margin: 20px 0 0 0;
+  width: 125px;
+  height: 90px;
+  text-align: center;
+  font-size: 25px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.txtel.left {
+  margin-left: 10px;
+}
+
+.txtel.middle {
+  margin-left: 15px;
+  width: 300px;
+}
+
+.txtel.right {
+  margin-left: 195px;
+}
+
+.card .middleimg {
+  display: inline-block;
+  margin: 20px 0 0 135px;
+  width: 60px;
+}
+
+.card .rightimg {
+  display: inline-block;
+  position: absolute;
+  margin: 20px 0 0 217px;
+  width: 60px;
+}
+
+.card .leftimg {
+  display: inline-block;
+  position: absolute;
+  margin: 20px 0 0 52px;
+  width: 60px;
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 15px 20px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+1 = delete card = random Pokemon 
+
+2 = take card down = Pokemon berry grow on which Star Wars planet 
+
+3 = add list to board = get SW planet with its Pokemon 
+
+4 = move list to left = get Pokemon with its favourite Pokemon berry 
+
+5 = archive list = get SW character with his/her favourite Pokemon 
+
+6 = move list to right = get SW character with his/her favourite Pokemon berry 
+
+7 = create card = get SW star ship with its carried Pokemon 
+
+8 = rename card = random berry 
+
+9 = move card between list = random SW planet 
+
+10 = add a member to a card = random SW specie 
+
+11 = delete a member of a card = get Pokemon with its SW specie best friend 
+
+12 = send a card to the board = get SW star ship with its carried Pokemon berry 
+
+13 = take card up = weather of Paris, France 
+
+14 = archive card = random SW character 
+
+15 = change description of a card = random SW star ship 
+
+16 = change due date = get SW character with his/her favourite SW specie 
+
+17 = add due date = get SW specie with its favourite Pokemon berry 

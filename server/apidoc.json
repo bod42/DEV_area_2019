@@ -1,0 +1,10 @@
+{
+    "name": "AREA API documentation",
+    "version": "1.0.0",
+    "description": "Documentation of our API, use for our AREA project",
+    "template": {
+        "forceLanguage": "en",
+        "withCompare": false,
+        "aloneDisplay": true
+    }
+}
